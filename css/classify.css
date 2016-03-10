@@ -1,0 +1,158 @@
+body {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+header {
+  height: 45px;
+  width: 100%;
+  border-bottom: 1px solid #e0e0e0;
+  background-image: linear-gradient(180deg, #fff, #eee);
+  position: absolute;
+  z-index: 1000;
+}
+header span {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(../img/sprites.png) no-repeat;
+  background-position: -20px 0;
+  background-size: 200px 200px;
+  margin: 12px 0 0 10px;
+}
+header .back {
+  width: 40px;
+  height: 44px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+}
+header .back .back-span {
+  background-position: -20px 0;
+}
+header .search-form {
+  width: 100%;
+  height: 44px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+header .search-form .search-input {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 7px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+}
+header .h-right {
+  width: 40px;
+  height: 44px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+header .h-right .h-right-span {
+  background-position: -60px 0;
+}
+main {
+  width: 100%;
+  height: 100%;
+  padding-top: 45px;
+  position: relative;
+}
+main nav {
+  width: 90px;
+  padding-top: 45px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow: hidden;
+}
+main nav .navbar {
+  width: 90px;
+}
+main nav li {
+  width: 90px;
+  height: 50px;
+  border-right: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  background-color: #f3f4f6;
+}
+main nav li.active {
+  background-color: transparent;
+  border-right: 0 none;
+}
+main nav li.active a {
+  color: #e92322;
+}
+main nav a {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #252525;
+  font-size: 13px;
+  font-family: "SimSun";
+}
+main .goods-list {
+  width: 100%;
+  height: 100%;
+  padding-left: 100px;
+  overflow: hidden;
+}
+main .goods-list .tabs .tabs-banner {
+  width: 100%;
+  padding-top: 10px;
+}
+main .goods-list .tabs .tabs-banner img {
+  width: 100%;
+}
+main .goods-list .tabs .tabs-goods {
+  margin-top: 20px;
+  font-size: 12px;
+}
+main .goods-list .tabs .tabs-goods ul li {
+  width: 33.333%;
+  text-align: center;
+  float: left;
+}
+main .goods-list .tabs .tabs-goods ul li img {
+  width: 62px;
+  height: 62px;
+  margin: 0 auto;
+}
+main .goods-list .tabs .tabs-goods ul li p {
+  line-height: 30px;
+}
+main .goods-list h3 {
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+  font-weight: normal;
+  font-size: 14px;
+}
+main .goods-list .tabs-list {
+  width: 100%;
+}
+main .goods-list .tabs-list li {
+  width: 33.33%;
+  height: 49px;
+  border-top: 1px solid #e0e0e0;
+  border-left: 1px solid #e0e0e0;
+  float: left;
+  margin-left: -1px;
+}
+main .goods-list .tabs-list li a {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-family: "Simsun";
+  font-size: 12px;
+  border-right: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+}

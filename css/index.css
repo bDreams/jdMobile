@@ -1,0 +1,278 @@
+/*
+* @Author: dongjiabo
+* @Date:   2015-12-16 11:05:27
+* @Last Modified by:   dongjiabo
+* @Last Modified time: 2015-12-16 11:33:06
+*/
+body {
+  background-color: #e0e0e0;
+}
+.jd-container {
+  min-width: 300px;
+  max-width: 640px;
+  margin: 0 auto;
+  position: relative;
+}
+.jd-header {
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.jd-header-box {
+  max-width: 640px;
+  min-width: 300px;
+  height: 40px;
+  margin: 0 auto;
+  background: rgba(201, 21, 35, 0);
+  position: relative;
+}
+.jd-header .icon-logo {
+  position: absolute;
+  width: 60px;
+  height: 36px;
+  top: 4px;
+  left: 10px;
+  background-position: 0 -103px;
+}
+.jd-header .jd-header-form {
+  width: 100%;
+  height: 40px;
+  padding-left: 75px;
+  padding-right: 55px;
+}
+.jd-header .jd-header-form .icon-search {
+  position: absolute;
+  top: 10px;
+  left: 85px;
+  background-position: -60px -109px;
+  width: 20px;
+  height: 20px;
+}
+.jd-header .jd-header-form .jd-header-search {
+  width: 100%;
+  height: 30px;
+  margin-top: 5px;
+  background-color: #fff;
+  border-radius: 15px;
+  padding-left: 30px;
+}
+.jd-header .jd-login {
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 15px;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.jd-slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.jd-slider ul:first-child {
+  width: 1000%;
+  transform: translateX(-10%);
+  -webkit-transform: translateX(-10%);
+}
+.jd-slider ul:first-child li {
+  width: 10%;
+  float: left;
+}
+.jd-slider ul:first-child li a {
+  width: 100%;
+  display: block;
+}
+.jd-slider ul:first-child li img {
+  width: 100%;
+}
+.jd-slider ul:last-child {
+  position: absolute;
+  width: 100%;
+  height: 6px;
+  left: 0;
+  bottom: 10px;
+  text-align: center;
+  font-size: 0;
+}
+.jd-slider ul:last-child li {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  margin: 0 5px;
+}
+.jd-slider ul:last-child li.active {
+  background-color: #fff;
+}
+.jd-nav {
+  width: 100%;
+  height: 150px;
+  background-color: #fff;
+  padding-top: 11px;
+}
+.jd-nav ul {
+  width: 100%;
+  height: 138px;
+  padding: 0 3.125%;
+}
+.jd-nav ul li {
+  width: 25%;
+  height: 69px;
+  float: left;
+}
+.jd-nav ul li a {
+  display: block;
+  text-align: center;
+  height: 69px;
+}
+.jd-nav ul li img {
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+}
+.jd-nav ul li p {
+  color: #666;
+  font-size: 12px;
+}
+.jd-product {
+  width: 100%;
+}
+.jd-product section {
+  margin: 0 5px;
+  background-color: #fff;
+  box-shadow: 0 0 1px 1px #e0e0e0;
+  margin-top: 8px;
+}
+.jd-product section .jd-product-title {
+  height: 32px;
+  border-bottom: 1px solid #e0e0e0;
+  position: relative;
+}
+.jd-product section .jd-product-title.no-border {
+  border: 0 none;
+}
+.jd-product section .jd-product-title h3 {
+  line-height: 32px;
+  font-weight: normal;
+  padding-left: 15px;
+}
+.jd-product section .jd-product-title h3::before {
+  content: "";
+  width: 3px;
+  height: 12px;
+  background-color: #e92322;
+  position: absolute;
+  top: 10px;
+  left: 8px;
+}
+.jd-product section .jd-product-body .p-left {
+  float: left;
+  width: 50%;
+}
+.jd-product section .jd-product-body .p-left img {
+  width: 100%;
+}
+.jd-product section .jd-product-body .p-right {
+  float: right;
+  width: 50%;
+}
+.jd-product section .jd-product-body .p-right img {
+  width: 100%;
+}
+.jd-product section .jd-product-body .b-left {
+  border-left: 1px solid #e0e0e0;
+}
+.jd-product section .jd-product-body .b-right {
+  border-right: 1px solid #e0e0e0;
+}
+.jd-product section .jd-product-body .b-bottom {
+  border-bottom: 1px solid #e0e0e0;
+}
+.jd-product-sk .jd-product-title .sk-title-left {
+  float: left;
+}
+.jd-product-sk .jd-product-title .sk-icon {
+  float: left;
+  width: 16px;
+  height: 20px;
+  background: url(../img/seckill-icon.png) no-repeat;
+  background-size: 16px 20px;
+  margin-left: 8px;
+  margin-top: 6px;
+}
+.jd-product-sk .jd-product-title .sk-text {
+  line-height: 32px;
+  font-size: 15px;
+  color: #e92322;
+  margin-left: 8px;
+  float: left;
+}
+.jd-product-sk .jd-product-title .sk-time {
+  float: left;
+  margin-left: 8px;
+  margin-top: 8px;
+}
+.jd-product-sk .jd-product-title .sk-time span {
+  display: block;
+  float: left;
+  width: 15px;
+  background-color: #333;
+  line-height: 15px;
+  text-align: center;
+  margin-left: 2px;
+  color: #fff;
+}
+.jd-product-sk .jd-product-title .sk-time span.str {
+  background-color: transparent;
+  width: 4px;
+  color: #000;
+}
+.jd-product-sk .jd-product-title .sk-title-right {
+  float: right;
+  line-height: 32px;
+  margin-right: 10px;
+}
+.jd-product-sk .jd-product-body {
+  width: 100%;
+}
+.jd-product-sk .jd-product-body ul {
+  width: 100%;
+  padding: 10px 0;
+}
+.jd-product-sk .jd-product-body li {
+  width: 33.33%;
+  float: left;
+}
+.jd-product-sk .jd-product-body li:last-child .img-box {
+  border: 0 none;
+}
+.jd-product-sk .jd-product-body a {
+  width: 100%;
+}
+.jd-product-sk .jd-product-body .img-box {
+  width: 100%;
+  border-right: 1px solid #e0e0e0;
+}
+.jd-product-sk .jd-product-body .img-box img {
+  width: 64%;
+  margin: 0 auto;
+}
+.jd-product-sk .jd-product-body .new-price {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 3px;
+  color: #e92322;
+}
+.jd-product-sk .jd-product-body .old-price {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 3px;
+  text-decoration: line-through;
+}
